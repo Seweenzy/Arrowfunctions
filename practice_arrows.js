@@ -25,6 +25,12 @@ var getFullName=(firstname, lastname) => `${firstname} ${lastname}`;
 let fullName=('Kukoyi Oluwaseun');
 console.log(fullName)
 
-var filterEvenNumbers= array => array.filter(n => n % 2 == 0);
+var filterEvenNumbers= arr => arr.filter(n => n % 2 == 0);
 let evenNumbers=filterEvenNumbers([1,2,3,4,5,6,7,8,9,10]);
 console.log(evenNumbers)
+
+
+
+var greet = name => `Hello, ${name}!`;
+let msg = greet('Alice');
+console.log(msg);
